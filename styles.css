@@ -1,0 +1,584 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+} */
+
+header {
+    background-color: #181818;
+    color: #f5f5f5;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo a {
+    color:#f1c461;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.intro-section {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    padding-top: 80px;
+}
+
+.intro-container h1 {
+    font-size: 2em;
+    color: #f1c461;
+}
+
+.featured-section, .portfolio-section, .info-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured-section h2, .portfolio-section h2, .info-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-item {
+    width: 45%;
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.info-content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info-text {
+    max-width: 500px;
+}
+
+.info-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+
+}
+/* Add background image to the body */
+
+body {
+    background-image: url('material-design-background-2023-11-27-05-18-28-utc.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed in place */
+    background-position: center; /* Center the image */
+    color: #fff; /* Adjust text color for better readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#home { 
+}
+
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffcc00;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #fff;
+}
+
+/* Video section styling */
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video {
+    margin: 10px;
+    text-align: center;
+}
+
+.video img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.video img:hover {
+    transform: scale(1.05);
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+/* General styling for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #f1c461;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f1c461;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* header {
+    text-align: center;
+    padding: 100px 20px;
+} */
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Video section styling */
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video {
+    margin: 20px;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+/* General styling for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f1c461;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Narrower header styling */
+header {
+    text-align: center;
+    padding: 30px 5px; /* Reduce the padding to make the header narrower */
+}
+
+header h1 {
+    font-size: 2em; /* Reduce the font size for a narrower appearance */
+    margin: 0;
+}
+
+/* Video section styling */
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video {
+    margin: 10px;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 5%;
+}
+
+.video p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+header {
+ 
+    background: rgba(0, 0, 0, 0.5);
+     /* Transparent background */
+     backdrop-filter: blur(2px);
+}
+
+
+
+/* Pagination styling */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.pagination ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.pagination ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.pagination ul li a:hover {
+    background-color: #ffcc00;
+}
+
+/* Video section styling */
+.videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-row {
+    display: contents; /* Keep the individual video layout within the grid */
+}
+
+.video {
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+/* Special class for centering the last row */
+.video-row-center {
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* Info section styling */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-section img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 130px;
+}
+
+.info-section p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 600px;
+}
+
+.Email {
+    color: #fe8787;
+}
+
+.info-section h4 {
+    color: #f1c461;
+}
+
+/* Active pagination link styling */
+.pagination ul li a.active {
+    background-color:#f1c461;
+    color: #000; /* You can adjust this color based on your design */
+
+ 
+ }
+.portfolio-section {
+    padding: 120px 90px;
+    text-align: center;
+}
+  
+h2 {
+    color: #f1c461;
+}
+
+h4 {
+    color: #f1c461;
+    font-size: 18px;
+}
+
+/* Responsive styling */
+ @media (max-width: 1200px) {
+    .videos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .videos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-row-center {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .videos {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .video iframe {
+        height: 200px;
+    }
+
+    .info-section img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .info-section p {
+        font-size: 1em;
+    }
+} 
